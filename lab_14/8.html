@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        8
+    </title>
+</head>
+  
+<body style="text-align:center;">
+    <button onClick="gfg()">
+        count
+    </button>
+    <p id="rk">
+    </p>
+    <script>
+        function gfg() {
+            var s = window.prompt("text");
+            var f = window.prompt("find");
+            var r = s.indexOf(f);
+            var c = 0;
+            while (r != -1) {
+                c++;
+                r = s.indexOf(f, r + 1);
+            }
+            
+            document.getElementById("rk").innerHTML = c;
+        }
+    </script>
+</body>
+  
+</html>

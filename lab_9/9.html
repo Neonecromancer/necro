@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>15</title>
+</head>
+<body>
+<script type="text/javascript">
+		s=1;
+	a=window.prompt("a");
+	b=window.prompt("b");
+
+	while (a>10)  {
+        c=a%10;
+        a=a/10;
+        s=s*c;
+	}
+	s=s*a;
+	window.alert(a);
+	if (s==b) {
+		window.alert("mon");
+	}
+	else{
+		window.alert("bish");
+	}
+b=b/10;
+	window.alert(b);
+</script>
+</body>
+</html>

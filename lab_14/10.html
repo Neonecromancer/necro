@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        
+    </title>
+</head>
+  
+<body style="text-align:center;">
+    <button onClick="gfg()">
+        count
+    </button>
+    <script>
+        function gfg() {
+            var s = window.prompt("text");
+            s=s.toLowerCase();
+            tokens=s.split(" ");
+            r=("b");
+            for (let j = 0; j < tokens.length; j++) {
+                if(tokens[j].indexOf(r)==0){
+                    document.writeln(""+tokens[j]+"<br>");
+                }
+            }
+        }
+    </script>
+</body>
+  
+</html>

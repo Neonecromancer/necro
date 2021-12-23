@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+#header{
+	padding: 50px 100px;
+	background-image: url(milky.jpg); 
+	color: white;
+	word-spacing: 5px;
+	font-family: 'Scheherazade New', serif;
+}
+.style{
+    font-family: 'Scheherazade New', serif;
+}
+.subtext{
+	font-family: ;
+	margin: 50px 100px;
+	border: 100px 100px;
+}
+#subtext{
+	color: darkgrey;
+}
+.slogan{
+	background-color: deeppink;
+	font-size: 20px;
+	margin: 20px;
+	border: 50px 50px;
+	padding: 4px;
+}
+.img{
+	border-radius: 50%;
+	border-image: 50%;
+}
+.footer{
+	background-color: darkgrey;
+	padding: 9px;
+}
+#a{
+	border-radius: 50%;
+	margin: 20px;
+}
+.text{
+	color: darkgrey;
+}

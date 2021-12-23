@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            a
+        </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            str=window.prompt(" ");
+            arr = str.split(" ");
+for (var i = 0; i < arr.length; i++) {
+    arr[i] = text(arr[i]);
+}
+var str2 = arr.join(" ");
+document.writeln(""+str2);
+          
+function text(str){
+   return (str.charAt(0).toUpperCase() + str.slice(1));
+}
+       </script>
+    </body>
+</html>

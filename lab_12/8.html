@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            8
+        </title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>A</td>
+                <td><script type="text/javascript">
+                    a=parseInt(window.prompt("a"));
+                    b=parseInt(window.prompt("b"));
+                    document.writeln(""+Math.floor(a/b));
+                </script></td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td><script type="text/javascript">
+                    a=parseInt(window.prompt("a"));
+                    b=parseInt(window.prompt("b"));
+                    document.writeln(""+a%b);
+                </script></td>
+            </tr>
+            <tr>
+                <td>C && D</td>
+                <td><script type="text/javascript">
+                    var s, b, n, x;
+                    x=window.prompt("x");
+                    displayDigits(x);
+                    function displayDigits(n){
+                    while (n > 0)
+                    {
+                        b=n%10;
+                        document.writeln(" "+b);
+                        n=Math.floor(n/10);
+                    }
+                }
+
+                </script></td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td><script type="text/javascript"></script></td>
+            </tr>
+        </table>
+    </body>
+</html>

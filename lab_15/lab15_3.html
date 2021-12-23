@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3</title>
+	<meta charset="utf-8">
+	<style type="text/css" media="screen">
+		label{
+			display: block;
+		}
+		table, th, td {
+			border: 1px solid rgb(46, 33, 167);
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<label for="r">moriin too:</label>
+	<input type="number" id="row" value="too">
+	<label for="c">baganiin too:</label>
+	<input type="number" id="column" value="too">
+	<button onclick="table()">Create table</button>
+	<script type="text/javascript">
+		function table(){
+			row = document.getElementById("row").value;
+			column = document.getElementById("column").value;
+			r = parseFloat(row);
+			c = parseFloat(column);
+			count = 1;
+			document.writeln("<table border=1>")
+			for ( i=1 ; i<=r ; i++){
+				document.writeln("<tr>");
+				for(j=1 ; j<=c ; j++){
+					document.writeln("<td>"+count+"</td>");
+					count++;
+				}
+				document.writeln("</tr>");
+			}
+			document.writeln("</table>");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#cover{
+	position: relative;
+	margin: 0 auto;
+}
+#cover img{
+position: absolute;
+left: 0;
+transition: opacity 4s ease-in-out;
+transition-timing-function: linear;
+}
+#cover img.top:hover{ opacity: 0;
+transition-duration: 3s;
+ }

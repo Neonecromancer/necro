@@ -1,0 +1,58 @@
+h1{
+	text-align: center;
+}
+.flexbox{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 40px;
+	flex-wrap: wrap;
+	flex-flow: row;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ .qx{
+  height: 250px;
+  width: 300px;
+  background-color: blue;
+  margin-right: 80px;
+}
+ .qw{
+ 	height: 200px;
+  width: 300px ;
+ background-color: green;
+
+ margin-right: 80px;
+ }
+ .qr{
+margin-right: 80px;
+ 	height: 200px;
+  width: 300px ;
+ background-color: yellow;
+ }
+.line2{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 40px;
+	flex-wrap: wrap;
+	flex-flow: row;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.we{
+	 background-color: green;
+	 height: 200px;
+  width: 300px ;
+  margin-right: 80px;
+}
+.wr{
+	background-color: darkblue;
+	 height: 200px;
+  width: 300px ;
+  margin-right: 80px;
+}
+.wt{
+	background-color: violet;
+	 height: 200px;
+  width: 300px ;
+  margin-right: 80px
+}

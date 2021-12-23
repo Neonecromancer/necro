@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2</title>
+</head>
+<body>
+	<p id="text">Hello World</p>
+	<input type="number" id="font" value="font">
+	<button onclick="increase()">Change</button>
+	<script type="text/javascript">
+		function increase(){
+			text = document.getElementById("text");
+			font = document.getElementById("font").value;
+			s = parseFloat(font);
+			text.style.fontSize = s+"px";
+		}
+	</script>
+</body>
+</html>

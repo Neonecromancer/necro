@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            13
+        </title>
+    </head>
+    <body>
+<script type="text/javascript">
+    a=window.prompt("мөнгөн дүнг оруул");
+    if(a<1000 && a>=0){
+    negt = new Array(' ','нэгэн','хоёр','гурван','дөрвөн','таван','зургаан','долоон','найман','есөн');
+    arawt = new Array(' ','арван','хорин','гучин','дөчин','тавин','жаран','далан','наян','ерин');
+    zuut = new Array(' ','нэгэн','хоёр','гурван','дөрвөн','таван','зургаан','долоон','найман','есөн');
+    s=a*100;
+    a1=s%10;
+    s=Math.floor(s/10);
+    a2=s%10;
+    s=Math.floor(s/10);
+    a3=s%10;
+    s=Math.floor(s/10);
+    a4=s%10;
+    s=Math.floor(s/10);
+    a5=s%10;
+   if(a1==0 && a2==0){
+    document.writeln(""+zuut[a5]+" зуун "+arawt[a4]+" "+negt[a3]+" төгрөг ");
+    }
+else{
+    document.writeln(""+zuut[a5]+" зуун "+arawt[a4]+" "+negt[a3]+" төгрөг "+arawt[a2]+" "+negt[a1]+" мөнгө");
+}}
+else{
+document.writeln("1000-aas baga mongon dvn bolon zow mongon dvng oruulnu")
+}
+    </script>
+    </body>
+</html>

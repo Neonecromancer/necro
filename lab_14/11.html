@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        
+    </title>
+</head>
+  
+<body style="text-align:center;">
+    <button onClick="gfg()">
+        count
+    </button>
+    <textarea placeholder="type here comment" id="myTextarea"></textarea>
+    <script>
+        function gfg() {
+            var array=['a','b','c','d','e','f','g','h','k','l','j','m','n','i','o','p','q','r','s','t','u','w','v','x','y','z'];
+            var s=document.getElementById("myTextarea").value;
+            s=s.toLowerCase();
+            tokens=s.split(" ");
+            r=("na");
+            for (let j = 0; j < tokens.length; j++) {
+                
+                if(tokens[j].indexOf(r)==-1){
+                    continue;
+                }
+                else {
+                    c=0;
+                     for (let i = 0; i < 26; i++) {
+                        var e=tokens[j].indexOf(r);
+                        
+                        if (tokens[j].indexOf(array[i],e+2)==(-1)) {
+                            continue;
+                        }
+                       else{
+                           c=c+1;
+                       }
+                       
+                     }
+                     if(c==0){
+                    document.writeln(""+tokens[j]+"<br>");
+                }
+                    else{
+                        continue;
+                    }
+                    c=0;
+                }
+            }
+        }
+    </script>
+</body>
+  
+</html>
